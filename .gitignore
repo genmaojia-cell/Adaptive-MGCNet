@@ -1,0 +1,13 @@
+# Python 编译缓存
+__pycache__/
+*.pyc
+
+# 训练特征缓存（避免上传海量 fold .npy）
+fold_leakfree_large8_combat/
+fold_leakfree_large8/
+loso_cache/
+
+# IDE 与操作系统配置
+.idea/
+.vscode/
+.DS_Store
